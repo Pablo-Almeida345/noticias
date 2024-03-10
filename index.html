@@ -12,14 +12,15 @@
     <script src="script.js" defer ></script>
     <title>W . Noticias</title>
 </head>
-<body class="escurecer">
-    <header class="heade-mobile">
+<body>
+    <header>
         <img src="./assets/images/logo.svg" alt="Logo do site w">
 
         <button>
             <img src="./assets/images/icon-menu.svg" alt="icone do menu hambuguer">
         </button>
-        <nav class="abrir">
+
+        <nav class="mobile">
 
             <img src="assets/images/icon-menu-close.svg" alt="Icone X para fexhar o menu">
 
@@ -30,11 +31,23 @@
             <a href="#">Categorias</a>
         </nav>
 
+        <nav class="desktop">
+            <a href="#">Home</a>
+            <a href="#">Novo</a>
+            <a href="#">Popular</a>
+            <a href="#">Irending</a>
+            <a href="#">Categorias</a>
+            
+        </nav>
     </header>
 
     <main>
         <section class="primeira-secao">
-            <img src="./assets/images/image-web-3-mobile.jpg" alt="icone de puzzle colorido">
+
+            <picture>
+                <source media="(min-whidth: 700px)" srcset="./assets/images/image-web-3-mobile">
+                <img src="./assets/images/image-web-3-mobile.jpg" alt="icone de puzzle colorido">
+            </picture>
 
             <h1>O fututo brilhante da web 3.0</h1>
 
